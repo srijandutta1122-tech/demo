@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Base class (Parent)
 class Employee {
 protected:
     string name;
@@ -78,6 +77,6 @@ int main() {
 
     cout << "\n--- Developer Details ---" << endl;
     e2->showDetails();
-
-    return 0;
+    
+    //changed
 }
